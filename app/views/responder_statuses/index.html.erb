@@ -1,0 +1,27 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Responder Statuses</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @responder_statuses.each do |responder_status| %>
+      <tr>
+        <td><%= responder_status.name %></td>
+        <td><%= link_to 'Show', responder_status %></td>
+        <td><%= link_to 'Edit', edit_responder_status_path(responder_status) %></td>
+        <td><%= link_to 'Destroy', responder_status, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Responder status', new_responder_status_path %>

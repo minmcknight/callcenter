@@ -1,0 +1,2 @@
+module ResponderStatusesHelper
+end

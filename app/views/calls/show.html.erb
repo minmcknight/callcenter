@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Priority:</strong>
+  <%= @call.priority_id %>
+</p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @call.type_id %>
+</p>
+
+<p>
+  <strong>Responder:</strong>
+  <%= @call.responder_id %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @call.address %>
+</p>
+
+<p>
+  <strong>Phone number:</strong>
+  <%= @call.phone_number %>
+</p>
+
+<p>
+  <strong>Summary:</strong>
+  <%= @call.summary %>
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @call.status_id %>
+</p>
+
+<%= link_to 'Edit', edit_call_path(@call) %> |
+<%= link_to 'Back', calls_path %>
