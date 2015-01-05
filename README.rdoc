@@ -1,12 +1,10 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
+This is a basic update to the readme
 
 * Ruby version
-Ruby 2
+for Ruby 2 and Rails 4
+
 * System dependencies
 
 * Configuration
